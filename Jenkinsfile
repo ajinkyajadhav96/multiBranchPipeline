@@ -14,10 +14,10 @@ pipeline {
         //         sh 'q'
         //     }
         // }
-        stage('Build') {
-            steps {
-                sh 'yarn build'
-            }
-        }
+        // stage('Build') {
+        //     steps {
+        //         sh 'yarn build'
+        //     }
+        // }
     }
 }
