@@ -14,6 +14,7 @@ pipeline {
         //         sh 'q'
         //     }
         // }
+        // added 
         stage('Build') {
             steps {
                 sh 'yarn build'
