@@ -21,7 +21,7 @@ pipeline {
                 ])
             }
         }
-
+        
         stage('Deployment') {
             steps {
                 sh 'ssh root@95.216.198.162 mkdir -p /var/www/temp_deploy'
