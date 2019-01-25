@@ -8,6 +8,13 @@ pipeline {
             }
         }
 
+        stage('Build') {
+            steps {
+                sh 'yarn add package.json'
+                sh 'yarn build'
+            }
+        }
+
         stage('Prepare workspace') {
             steps {
                 sh 'ls -alh'
